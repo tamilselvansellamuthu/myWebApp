@@ -27,8 +27,8 @@ jobs:
 #      run: dotnet msbuild
 #    - name: Test
 #      run: dotnet test --no-build --verbosity normal
-    - name: RunMyWebAppDLL
-      run: dotnet run bin\Debug\net5.0\myWebApp.dll
+#    - name: RunMyWebAppDLL
+#      run: dotnet run bin\Debug\net5.0\myWebApp.dll
     - name: Package
       run: dotnet pack --configuration Release
     - name: AddSource
